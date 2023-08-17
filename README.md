@@ -3,19 +3,19 @@ A repository containing a clone of the Instagram database schema, along with tas
 
 ## Database Schema
 The database schema closely resembles the structure of an actual Instagram database. It consists of the following main tables:
-<li>
-    <ul>Users: </ul>
+<ul>
+    <li>Users: </li>
     <p>Information about registered users.</p>
-    <ul>Photos: </ul>
+    <li>Photos: </li>
     <p>Details of the photos posted by users.</p>
-    <ul>Comments: </ul>
+    <li>Comments: </li>
     <p>Comments made by users on photos.</p>
-    <ul>Likes: </ul>
+    <li>Likes: </li>
     <p>Records of likes given to photos by users.</p>
-    <ul>Follows: </ul>
-    <p>Information about Users following another user(Consists of user_id)</p>
-    <ul>Tags: </ul>
+    <li>Follows: </li>
+    <p>Information about Users following another user(Consists of user_id).</p>
+    <li>Tags: </li>
     <p>Various tags used to categorize photos.</p>
-    <ul>Photo Tags: </ul>
+    <li>Photo Tags: </li>
     <p>A junction table to associate photos with tags.</p>
-</li>
+</ul>
