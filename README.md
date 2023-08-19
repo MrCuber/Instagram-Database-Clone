@@ -19,3 +19,12 @@ The database schema closely resembles the structure of an actual Instagram datab
     <li>Photo Tags: </li>
     <p>A junction table to associate photos with tags.</p>
 </ul>
+
+## Work Function Of Triggers
+### Preventing Self Follow Trigger
+<p>When User tried to Follow his account It throws the Warning "Cannot follow Yourself".</p>
+![image](https://github.com/MrCuber/Instagram-Database-Clone/assets/91596032/79dea454-39bc-4e91-b89a-1cb6c758e605)
+
+### UnFollow Trigger
+<p>When an user unfollow the other user, The unfollowed data will be automatically added into the unfollows table.</p>
+![image](https://github.com/MrCuber/Instagram-Database-Clone/assets/91596032/9485ff34-1d0d-4857-bf8a-2e52945a0031)
